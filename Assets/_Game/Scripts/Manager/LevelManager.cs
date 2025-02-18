@@ -1,60 +1,76 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class LevelManager : Singleton<LevelManager> 
+public class LevelManager : Singleton<LevelManager>
 {
-    int level;
+    //[SerializeField] Level[] levels;
+    //public Level currentLevel;
+    int level = 0;
+
+    public void Start()
+    {
+        OnLoadLevel(level);
+        OnInit();
+    }
+
+    //khoi tao trang thai bat dau game
     public void OnInit()
     {
-        //khoi tao cac thong so truoc khi bat dau man choi
+        //player.OnInit();
     }
 
+    //goi khi bat dau gameplay
     public void OnPlay()
     {
-        //bat dau man choi
+
     }
 
-    public void LoadLevel(int level)
+    //reset trang thai khi ket thuc game
+    public void OnDespawn()
     {
-        //load lai object trong man choi
+        //player.OnDespawn();
+        //for (int i = 0; i < bots.Count; i++)
+        //{
+        //    bots[i].OnDespawn();
+        //}
+
+        //bots.Clear();
+        //SimplePool.CollectAll();
     }
+
+    //tao prefab level moi
+    public void OnLoadLevel(int level)
+    {
+        //if (currentLevel != null)
+        //{
+        //    Destroy(currentLevel.gameObject);
+        //}
+
+        //currentLevel = Instantiate(levels[level]);
+    }
+
 
     public void OnWin()
     {
-        //thang
+
     }
 
     public void OnLose()
     {
-        //thua
+
+    }
+
+    public void CollectItem(Item item)
+    {
+
     }
 
     public void OnNextLevel()
     {
-        //next 1 level
         OnDespawn();
-        LoadLevel(++level);
+        OnLoadLevel(++level);
         OnInit();
-    }
-
-    public void OnRetryLevel()
-    {
-        //choi lai level
-        OnDespawn();
-        LoadLevel(level);
-        OnInit();
-    }
-
-    public void OnDespawn()
-    {
-        //reset tat ca cac thong so cua man choi
-    }
-
-    public void CollectItem(AddDictionaryItem item)
-    {
-        //thu thap nhung thang item da hoan thanh
     }
 
 }

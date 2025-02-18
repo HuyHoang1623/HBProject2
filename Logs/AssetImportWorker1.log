@@ -15,7 +15,7 @@ D:/New folder/HBProject2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53079
+53731
 Successfully changed project path to: D:/New folder/HBProject2
 D:/New folder/HBProject2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ D:/New folder/HBProject2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21508]  Target information:
+Player connection [18460]  Target information:
 
-Player connection [21508]  * "[IP] 192.168.1.90 [Port] 0 [Flags] 2 [Guid] 152580951 [EditorId] 152580951 [Version] 1048832 [Id] WindowsEditor(7,MS-7D46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18460]  * "[IP] 192.168.1.90 [Port] 0 [Flags] 2 [Guid] 619095319 [EditorId] 619095319 [Version] 1048832 [Id] WindowsEditor(7,MS-7D46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21508] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21508] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18460] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18460] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2312.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
@@ -72,51 +72,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005811 seconds.
-- Loaded All Assemblies, in  0.359 seconds
+Registered in 0.006637 seconds.
+- Loaded All Assemblies, in  0.906 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 238 ms
+Android Extension - Scanning For ADB Devices 399 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.515 seconds
-Domain Reload Profiling: 875ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1650ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (107ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (176ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (558ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (556ms)
+			TypeCache.Refresh (554ms)
+				TypeCache.ScanAssembly (539ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (516ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (745ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (473ms)
+		SetupLoadedEditorAssemblies (704ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (318ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (530ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,52 +125,52 @@ Domain Reload Profiling: 875ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.629 seconds
+- Loaded All Assemblies, in  4.047 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.668 seconds
-Domain Reload Profiling: 1296ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 4897ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (403ms)
-		LoadAssemblies (309ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (3815ms)
+		LoadAssemblies (3536ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (148ms)
-				TypeCache.ScanAssembly (129ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (331ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (668ms)
+	FinalizeReload (876ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (749ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (406ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (651ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (304.6 KB). Loaded Objects now: 3572.
-Memory consumption went from 125.0 MB to 124.7 MB.
-Total: 3.582200 ms (FindLiveObjects: 0.230000 ms CreateObjectMapping: 0.095300 ms MarkObjects: 3.043800 ms  DeleteObjects: 0.211300 ms)
+Unloading 19 unused Assets / (54.7 KB). Loaded Objects now: 3574.
+Memory consumption went from 124.9 MB to 124.8 MB.
+Total: 4.437700 ms (FindLiveObjects: 0.399000 ms CreateObjectMapping: 0.241200 ms MarkObjects: 3.655600 ms  DeleteObjects: 0.140500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,122 +187,197 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2287034.428651 seconds.
-  path: Assets/_Game/Animation/Death/Standing Death Forward 02.fbx
-  artifactKey: Guid(bbae79c8cff7e47498030596d0debca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Death/Standing Death Forward 02.fbx using Guid(bbae79c8cff7e47498030596d0debca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ae2c36e44102a706f3ab5fad598284aa') in 0.150300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.578 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 27.423 seconds
+Domain Reload Profiling: 28000ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (385ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (27424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3578.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 3.541600 ms (FindLiveObjects: 0.210200 ms CreateObjectMapping: 0.101700 ms MarkObjects: 3.174100 ms  DeleteObjects: 0.054300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 9933fbcc6190e2a9171c2ec8808a053e -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9fc3fcfa344f32691c4e823801277486 -> eefdc30cefcd6aec351b7469deda4968
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.355 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 916ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3581.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 2.268800 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.142500 ms MarkObjects: 1.881900 ms  DeleteObjects: 0.037000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameManager.cs: 9933fbcc6190e2a9171c2ec8808a053e -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 74e6e8893731d81c527ca965e5d9f60c -> eefdc30cefcd6aec351b7469deda4968
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/_Game/Animation/Death/Dying.fbx
-  artifactKey: Guid(ee5666f3b0731fb4cac796d9b6b051df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Death/Dying.fbx using Guid(ee5666f3b0731fb4cac796d9b6b051df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 2727679.473776 seconds.
+  path: Assets/_Game/_Src/kenney_food-kit/Models/FBX format/bacon.fbx
+  artifactKey: Guid(68a624b69373f26408ebbb08ea964c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Src/kenney_food-kit/Models/FBX format/bacon.fbx using Guid(68a624b69373f26408ebbb08ea964c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'da7fd3bc81eca6289af300050ba4a701') in 0.052388 seconds
+ -> (artifact id: '34b8daa2577de1ab926de38a36602b0a') in 0.673843 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 125.568444 seconds.
-  path: Assets/_Game/Animation/Zombie/Run Forward.fbx
-  artifactKey: Guid(11927bc129501e044864167fd1049ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Zombie/Run Forward.fbx using Guid(11927bc129501e044864167fd1049ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Game/_Src/kenney_food-kit/Models/OBJ format/coconut.obj
+  artifactKey: Guid(e71f219ec3304614bbf74d4dabaec23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Src/kenney_food-kit/Models/OBJ format/coconut.obj using Guid(e71f219ec3304614bbf74d4dabaec23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e3de6077fe7fd652073e96615843ef56') in 0.056906 seconds
+ -> (artifact id: 'fa98813a7b29fced9e7167ca3305f15c') in 0.055149 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/_Game/Animation/Zombie/Zombie Scream.fbx
-  artifactKey: Guid(556d74a99b636504ba9106e220b6a221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Zombie/Zombie Scream.fbx using Guid(556d74a99b636504ba9106e220b6a221) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Game/_Src/kenney_food-kit/Models/OBJ format/coconut-half.obj
+  artifactKey: Guid(d5791e763a132734ba5e134db31efeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Src/kenney_food-kit/Models/OBJ format/coconut-half.obj using Guid(d5791e763a132734ba5e134db31efeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e8b2ccbffe922c3c514a357b8aa4bc9d') in 0.051373 seconds
+ -> (artifact id: 'b102ff5a81dc24aef8b8a64367d6e287') in 0.049353 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/_Game/Animation/Zombie/Zombie Stand Up 1.fbx
-  artifactKey: Guid(edaabef19a814934db9a2b39d14f93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Zombie/Zombie Stand Up 1.fbx using Guid(edaabef19a814934db9a2b39d14f93d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Game/_Src/kenney_food-kit/Previews/coconut.png
+  artifactKey: Guid(97448c19ade774f44b646694564fa6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Src/kenney_food-kit/Previews/coconut.png using Guid(97448c19ade774f44b646694564fa6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bf73af018959127f9fd18b9cd7758af5') in 0.047826 seconds
+ -> (artifact id: '4ee0f5a7c806db16418b689cb57eb35b') in 0.052493 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/_Game/Animation/Zombie/Zombie Reaction Hit.fbx
-  artifactKey: Guid(da00f18b230fc684b8edb019acd3ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Zombie/Zombie Reaction Hit.fbx using Guid(da00f18b230fc684b8edb019acd3ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Game/_Src/kenney_car-kit/Previews/cone.png
+  artifactKey: Guid(ae9c5ba8ae6200942800780ffb4570ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Src/kenney_car-kit/Previews/cone.png using Guid(ae9c5ba8ae6200942800780ffb4570ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '98c6fb211025ffdd270a66c97129fd27') in 0.051958 seconds
+ -> (artifact id: 'c333dd40572cc1bf37c5349f2c2d7342') in 0.018977 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/_Game/Animation/Zombie/Zombie Crawl.fbx
-  artifactKey: Guid(53467190716347c43b2d75f7310f03cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Zombie/Zombie Crawl.fbx using Guid(53467190716347c43b2d75f7310f03cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a9aa15e7300959f9cf8c6bb04f37043d') in 0.043159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/_Game/Animation/Zombie/Zombie Dying.fbx
-  artifactKey: Guid(e3bd8722905abcc4e8366f10928b5ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Zombie/Zombie Dying.fbx using Guid(e3bd8722905abcc4e8366f10928b5ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '29a6392b402808ef885ef7fcb12dbddf') in 0.062732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/_Game/Animation/Zombie/Standing Up.fbx
-  artifactKey: Guid(19cab86dfbac64846bb316d0326f8083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Animation/Zombie/Standing Up.fbx using Guid(19cab86dfbac64846bb316d0326f8083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ddadd8a9f7951f13df29e4052787c12e') in 0.054811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

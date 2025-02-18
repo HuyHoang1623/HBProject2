@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Constants 
 {
-    
+    public const string ANIM_IDLE = "idle";
 }
 
 public enum ItemType
